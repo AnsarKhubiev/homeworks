@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    margin: 25px auto 35px;
+    max-width: 1280px;
+}
+
+.hwTitle {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
