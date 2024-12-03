@@ -11,6 +11,6 @@ export const Input = (props: InputPropsType) => {
 	};
 
 	return (
-	  <input id={'hw04-input'} type="text" value={props.currentText} onChange={onChangeHandler} />
+	  <input id={'04-input'} type="text" value={props.currentText} onChange={onChangeHandler} />
 	);
 };
