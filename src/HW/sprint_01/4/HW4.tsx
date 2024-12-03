@@ -4,7 +4,7 @@ import { Button } from './Button';
 import { Input } from './Input';
 
 export const HW4 = () => {
-  // 1️⃣ Раскомментируйте JSX (HW4.tsx) и вы увидите,
+  // 1️⃣ Раскомментируйте JSX (HwSprint2Week4.tsx) и вы увидите,
   // что приложение начнет гореть красным и ругаться 😡
   // 2️⃣ Ваша задача: ❗ПОЧИНИТЬ ПРОЕКТ❗
   // - прописать типизацию, где необходимо
@@ -25,11 +25,11 @@ export const HW4 = () => {
   };
 
   return (
-    <div id={'hw04'}>
+    <div id={'04'}>
       {currentText ? (
-        <h1 id={'hw04-text'}>{currentText}</h1>
+        <h1 id={'04-text'}>{currentText}</h1>
       ) : (
-        <h1 id={'hw04-default-text'}>Здесь появится новое дело</h1>
+        <h1 id={'04-default-text'}>Здесь появится новое дело</h1>
       )}
 
       <Input currentText={currentText} setCurrentText={setCurrentText}/>
@@ -38,7 +38,7 @@ export const HW4 = () => {
 
       <h1 style={{ marginTop: '50px' }}>СПИСОК ДЕЛ НА ДЕНЬ:</h1>
 
-      <ol id={'hw04-tasks'}>
+      <ol id={'04-tasks'}>
         {texts.map((el, index) => {
           return (
             <li key={index} id={`hw04-task-${index}`} className={(index+1) % 2 ? s.chetNechet : ''}>
